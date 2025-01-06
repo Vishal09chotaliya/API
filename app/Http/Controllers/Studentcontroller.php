@@ -68,8 +68,6 @@ class Studentcontroller extends Controller
 
     public function searchStudent($id)
     {
-        // return $id;
-
         $student = Student::find($id);
 
         if ($student) {
